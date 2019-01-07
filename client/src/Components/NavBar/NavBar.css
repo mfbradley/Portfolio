@@ -3,7 +3,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background: lightgrey;
+    background: black;
+    color: lightgrey;
 }
 
 .navTitle {
@@ -13,6 +14,6 @@
 
 a:link {
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 15px;
 }

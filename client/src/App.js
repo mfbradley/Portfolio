@@ -18,7 +18,7 @@ class App extends Component {
 
         >
         </NavBar>
-      
+      <div className="mainContent"></div>
       </div>
     );
   }
