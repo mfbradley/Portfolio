@@ -11,7 +11,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Home />
+        <Home 
+          shouldhide={false}
+        />
         {/* <NavBar
           text="Morgan Palacpac"
           nav1="About"
