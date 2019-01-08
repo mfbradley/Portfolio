@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Home from './Pages/Home';
 import NavBar from './Components/NavBar';
 
 class App extends Component {
@@ -10,15 +11,15 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <NavBar
+        <Home />
+        {/* <NavBar
           text="Morgan Palacpac"
           nav1="About"
           nav2="Portfolio"
           nav3="Contact"
-
         >
-        </NavBar>
-      <div className="mainContent"></div>
+        </NavBar> */}
+
       </div>
     );
   }

@@ -1,0 +1,45 @@
+.Home {
+    display: grid;
+    grid-template-rows: 100px, auto;
+    grid-template-columns: repeat(3, 1fr); 
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.homeHeader {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.aboutSection {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border-right: solid;
+    border-right-color: grey;
+    border-right-width: 2px;
+}
+
+.portfolioSection {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border-right: solid;
+    border-right-color: grey;
+    border-right-width: 2px;
+
+}
+
+.contactSection {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
