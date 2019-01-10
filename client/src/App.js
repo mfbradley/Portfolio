@@ -1,26 +1,55 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { CSSTransitionGroup } from 'react-transition-group';
+
 import Home from './Pages/Home';
-import NavBar from './Components/NavBar';
+import About from './Pages/About';
 
 class App extends Component {
   constructor(props) {
     super(props);
+
+    this.state = {
+      page: "home"
+    }
   }
+
+  handleState = (e) => {
+    console.log(e.target.className)
+    let cls = e.target.className;
+
+    this.setState({
+      page: cls
+    })
+  }
+
+
   render() {
+
     return (
-      <div className="App">
-        <Home 
-          shouldhide={false}
-        />
-        {/* <NavBar
-          text="Morgan Palacpac"
-          nav1="About"
-          nav2="Portfolio"
-          nav3="Contact"
-        >
-        </NavBar> */}
+      <div className="App" onClick={this.handleState}>
+        <CSSTransitionGroup
+          transitionName="fade"
+          transitionEnterTimeout={1000}
+          transitionLeaveTimeout={1000}>
+          {this.state.page === 'home' ? <Home key="home" /> : null}
+        </CSSTransitionGroup>
+        <CSSTransitionGroup
+          transitionName="aboutfade"
+          transitionAppear={true}
+          transitionAppearTimeout={6000}
+          transitionEnterTimeout={6000}
+          transitionLeaveTimeout={6000}>
+          {this.state.page === 'about' ? <About key="about" /> : null}
+        </CSSTransitionGroup>
+        <CSSTransitionGroup
+          transitionName="aboutfade"
+          transitionAppear={true}
+          transitionAppearTimeout={6000}
+          transitionEnterTimeout={6000}
+          transitionLeaveTimeout={6000}>
+          {this.state.page === 'port' ? <Port key="port" /> : null}
+        </CSSTransitionGroup>
 
       </div>
     );

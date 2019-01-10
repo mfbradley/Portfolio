@@ -4,7 +4,23 @@ html {
 body {
     height: 100%;
     margin: 0;
-    background-image: linear-gradient(black, grey);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: black
+}
+
+.aboutfade-enter {
+    opacity: 0.01;
+  }
+  
+.aboutfade-enter.aboutfade-enter-active {
+    opacity: 1;
+    transition: opacity 6000ms ease-in;
+}
+
+.aboutfade-leave {
+    opacity: 1;
+}
+
+.aboutfade-leave.aboutfade-leave-active {
+    opacity: 0.01;
+    transition: opacity 6000ms ease-in;
 }

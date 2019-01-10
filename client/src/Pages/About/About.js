@@ -1,5 +1,7 @@
 import React from "react";
 import "./About.css";
+import { CSSTransitionGroup } from 'react-transition-group';
+import NavBar from '../../Components/NavBar';
 
 class About extends React.Component {
     constructor(props) {
@@ -9,7 +11,17 @@ class About extends React.Component {
     render() {
         return (
             <div className="About">
-                <p></p>
+                <CSSTransitionGroup
+                    transitionName="homefade"
+                    transitionEnterTimeout={2000}
+                    transitionLeaveTimeout={2000}>
+                    <NavBar key="nav"
+                        text="Morgan Palacpac"
+                        nav1="About"
+                        nav2="Portfolio"
+                        nav3="Contact"
+                    />
+                </CSSTransitionGroup>
             </div>
         )
     }

@@ -17,3 +17,7 @@ a:link {
     color: white;
     padding: 15px;
 }
+
+a:hover {
+    color: purple;
+}

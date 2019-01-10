@@ -1,41 +1,72 @@
 import React from 'react';
 import './Home.css';
+import { CSSTransitionGroup } from 'react-transition-group';
 import Header from '../../Components/Header';
+import HomeSection from '../../Components/HomeSection';
+import NavBar from '../../Components/NavBar';
+import About from '../About'
 
 class Home extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { 
-            showHeading: true,
-            wide: false 
+        this.state = {
+            show: true,
+            nav: false,
         }
     }
 
-    handleToggleClick = (id) => {
+
+
+    handleToggleClick = () => {
         this.setState(prevState => ({
-            showHeading: !prevState.showHeading,
-            wide: !this.state.wide
+            show: !prevState.show,
+            nav: !prevState.nav,
         }));
-        console.log("clicked")
-        console.log(this.state)
+
     }
 
+
     render() {
-        let div_class = this.state.wide ? "wide" : null;
 
         return (
             <div>
-
                 <div className="Home">
-                    <Header show={this.state.showHeading}/>
-                    <div to="/about" className={`aboutSection ${div_class}`} onClick={this.handleToggleClick.bind(this, id)}>
-                        <p>About</p>
+                    <div className="homeHeader">
+                        <CSSTransitionGroup
+                            transitionName="fade"
+                            transitionEnterTimeout={1000}
+                            transitionLeaveTimeout={1000}>
+                            {this.state.show ? <Header key="header" show={this.state.showHeading} name="Morgan Palacpac" title="Web Developer" /> : null}
+                        </CSSTransitionGroup>
                     </div>
-                    <div to="/portfolio" className={`portfolioSection ${div_class}`} onClick={this.handleToggleClick.bind(this, id)}>
-                        <p>Portfolio</p>
+                    <div className="aboutSection" onClick={this.handleToggleClick}>
+                        <CSSTransitionGroup
+                            transitionName="slide"
+                            transitionEnterTimeout={1000}
+                            transitionLeaveTimeout={1000}>
+                            {this.state.show ? <div className="about"><HomeSection className="about" key="about" sectionName="About" /></div> : null}
+
+                        </CSSTransitionGroup>
                     </div>
-                    <div to="/contact" className={`contactSection ${div_class}`} onClick={this.handleToggleClick.bind(this, id)}>
-                        <p>Contact</p>
+                    <div className="portfolioSection" onClick={this.handleToggleClick}>
+                        <CSSTransitionGroup
+                            transitionName="fade"
+                            transitionEnterTimeout={1000}
+                            transitionLeaveTimeout={1000}>
+                            {this.state.show ? <div className="port"><HomeSection className="port" sectionName="Portfolio" /></div> : null}
+
+                        </CSSTransitionGroup>
+                    </div>
+
+                    <div className="contactSection" onClick={this.handleToggleClick}>
+                        <CSSTransitionGroup
+                            transitionName="fade"
+                            transitionEnterTimeout={1000}
+                            transitionLeaveTimeout={1000}>
+                            {this.state.show ? <div className="contact"><HomeSection className="contact" sectionName="Contact" /></div> : null}
+
+                        </CSSTransitionGroup>
+
                     </div>
                 </div>
             </div>
