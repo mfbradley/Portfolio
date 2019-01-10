@@ -4,6 +4,7 @@ import { CSSTransitionGroup } from 'react-transition-group';
 
 import Home from './Pages/Home';
 import About from './Pages/About';
+import Portfolio from './Pages/Portfolio';
 
 class App extends Component {
   constructor(props) {
@@ -48,7 +49,7 @@ class App extends Component {
           transitionAppearTimeout={6000}
           transitionEnterTimeout={6000}
           transitionLeaveTimeout={6000}>
-          {this.state.page === 'port' ? <Port key="port" /> : null}
+          {this.state.page === 'port' ? <Portfolio key="port" /> : null}
         </CSSTransitionGroup>
 
       </div>

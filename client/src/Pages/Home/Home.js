@@ -3,8 +3,7 @@ import './Home.css';
 import { CSSTransitionGroup } from 'react-transition-group';
 import Header from '../../Components/Header';
 import HomeSection from '../../Components/HomeSection';
-import NavBar from '../../Components/NavBar';
-import About from '../About'
+
 
 class Home extends React.Component {
     constructor(props) {
