@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 const NavBar = props => (
 
     <div className="navBar">
-        <Link to="/"><p className="navTitle">{ props.text }</p></Link>
+        <p className="navTitle">{ props.text }</p>
         <nav className="navlinks">
             <Link to="/about">{ props.nav1 }</Link>
             <Link to="/portfolio">{ props.nav2 }</Link>
