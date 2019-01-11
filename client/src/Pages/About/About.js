@@ -18,7 +18,10 @@ class About extends React.Component {
                     nav2="Portfolio"
                     nav3="Contact"
                 />
-                <Content contentTitle="About" paragraph="Web Developer with a background in apparel design and e-commerce styling"/>
+                <Content
+                    contentTitle="About"
+                    paragraph="Web Developer with a background in apparel design and e-commerce styling"
+                />
             </div>
         )
     }
