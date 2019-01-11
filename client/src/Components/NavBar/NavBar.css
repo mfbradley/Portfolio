@@ -5,17 +5,21 @@
     justify-content: center;
     background: black;
     color: lightgrey;
+    margin: 10px;
 }
 
 .navTitle {
     flex-grow: 12;
-    font-size: 20px;
+}
+
+.navLinks {
+    font-size: 14px;
 }
 
 a:link {
     text-decoration: none;
     color: white;
-    padding: 15px;
+    padding: 5px;
 }
 
 a:hover {

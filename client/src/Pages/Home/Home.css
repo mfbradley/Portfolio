@@ -24,7 +24,7 @@
     font-size: 20px;
 }
 
-.fade-enter {
+/* .fade-enter {
     opacity: 0.01;
   }
   
@@ -57,4 +57,4 @@
 .slide-leave.slide-leave-active {
     transform: translate(0%, -100%);
     transition: transform 1000ms ease-in-out;
-}
+} */

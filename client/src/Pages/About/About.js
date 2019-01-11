@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css";
 // import { CSSTransitionGroup } from 'react-transition-group';
 import NavBar from '../../Components/NavBar';
+import Content from '../../Components/Content';
 
 class About extends React.Component {
     constructor(props) {
@@ -17,8 +18,7 @@ class About extends React.Component {
                     nav2="Portfolio"
                     nav3="Contact"
                 />
-                <h1>About</h1>
-                <p>Mo</p>
+                <Content contentTitle="About" paragraph="Web Developer with a background in apparel design and e-commerce styling"/>
             </div>
         )
     }
