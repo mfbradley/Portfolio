@@ -1,8 +1,9 @@
 import React from 'react';
 // import { CSSTransitionGroup } from 'react-transition-group';
-
+import './Portfolio.css';
 import NavBar from '../../Components/NavBar';
 import Content from '../../Components/Content';
+import Image from '../../Components/Image';
 
 class Portfolio extends React.Component {
     constructor(props) {
@@ -19,11 +20,14 @@ class Portfolio extends React.Component {
                     nav2="Portfolio"
                     nav3="Contact"
                 />
-                <Content
-                    contentTitle="Portfolio"
-                    paragraph="images images images"
-                />
-
+                <div className="container">
+                    <h1 className="title">Portfolio</h1>
+                    <div className="port-images">
+                        <Image src="/images/psychic.PNG" alt="Psychic Game" />
+                        <Image src="/images/psychic.PNG" alt="Psychic Game" />
+                        <Image src="/images/psychic.PNG" alt="Psychic Game" />
+                    </div>
+                </div>
             </div>
         )
     }

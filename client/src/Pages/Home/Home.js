@@ -30,17 +30,17 @@ class Home extends React.Component {
         return (
             <div>
                 <div className="Home">
-                <Header name="Morgan Palacpac" title="Web Developer" />
-                <div className="aboutSection">
-                <HomeSection link="/about" className="about" sectionName="About" />
-                </div>
-                <div className="portfolioSection">
-                <HomeSection link="/portfolio" className="port" sectionName="Portfolio" />
-                </div>
-                <div className="contactSection">
-                <HomeSection link="/contact" className="contact" sectionName="Contact" />
-                </div>
-                
+                    <Header name="Morgan Palacpac" title="Web Developer" />
+                    <div className="aboutSection">
+                        <HomeSection link="/about" className="about" sectionName="About" />
+                    </div>
+                    <div className="portfolioSection">
+                        <HomeSection link="/portfolio" className="port" sectionName="Portfolio" />
+                    </div>
+                    <div className="contactSection">
+                        <HomeSection link="/contact" className="contact" sectionName="Contact" />
+                    </div>
+
                     {/* <div className="homeHeader">
                         <CSSTransitionGroup
                             transitionName="slide"

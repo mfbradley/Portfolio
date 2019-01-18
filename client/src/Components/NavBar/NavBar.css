@@ -5,7 +5,10 @@
     justify-content: center;
     background: black;
     color: lightgrey;
-    margin: 10px;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .navTitle {

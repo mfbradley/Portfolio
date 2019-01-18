@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from '../../Components/NavBar';
+import Content from '../../Components/Content';
 
 class Contact extends React.Component {
 
@@ -21,3 +22,5 @@ class Contact extends React.Component {
         )
     }
 }
+
+export default Contact;

@@ -24,7 +24,7 @@
     font-size: 20px;
 }
 
-/* .fade-enter {
+.fade-enter {
     opacity: 0.01;
   }
   
@@ -40,11 +40,11 @@
 .fade-leave.fade-leave-active {
     opacity: 0.01;
     transition: opacity 1000ms ease-in;
-}
+} 
 
 
 
-.slide-enter {
+/* .slide-enter {
     transform: translate(0%, 0%);
   }
 .slide-enter.slide-enter-active {
@@ -57,4 +57,4 @@
 .slide-leave.slide-leave-active {
     transform: translate(0%, -100%);
     transition: transform 1000ms ease-in-out;
-} */
+}  */

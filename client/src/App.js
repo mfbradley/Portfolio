@@ -1,21 +1,19 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import './App.css';
+
 import { CSSTransitionGroup } from 'react-transition-group';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Portfolio from './Pages/Portfolio/';
-// import Contact from './Pages/Contact'
+import Contact from './Pages/Contact'
 
-
+import './App.css';
 
 class App extends Component {
   constructor(props) {
     super(props);
 
   }
-
-
 
   render() {
 
@@ -29,6 +27,7 @@ class App extends Component {
             < CSSTransitionGroup
               transitionName="fade"
               transitionEnterTimeout={2000}
+              transitionLeave={false}
               transitionLeaveTimeout={2000}
             >
 
@@ -36,8 +35,8 @@ class App extends Component {
                 <Route exact path="/" component={Home} />
                 <Route exact path="/about" component={About} />
                 <Route exact path="/portfolio" component={Portfolio} />
-                {/* <Route exact path="/contact" component={Contact} />
-            <Route component={NoMatch} /> */}
+                <Route exact path="/contact" component={Contact} />
+                {/* <Route component={NoMatch} /> */}
               </Switch>
             </CSSTransitionGroup>
           )}
