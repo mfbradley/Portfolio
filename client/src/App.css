@@ -2,27 +2,15 @@ html {
     height: 100%;
 }
 .App {
-    /* height: 100%; */
     margin: 0;
-    background: linear-gradient(black, darkgrey);
+    background: linear-gradient(white, darkgrey);
     background: cover;
     background-repeat: no-repeat;
 }
 
-.fade-enter {
-    opacity: 0.01;
-  }
-  
-.fade-enter.fade-enter-active {
-    opacity: 1;
-    transition: opacity 2000ms ease-in-out;
+p {
+    font-family: 'Roboto', sans-serif; 
 }
 
-.fade-leave {
-    opacity: 1;
-  }
-  
-.fade-leave.fade-leave-active {
-    opacity: 0.01;
-    transition: opacity 300ms ease-in;
-}
+/* font-family: 'Lora', serif;
+font-family: 'Roboto', sans-serif; */
