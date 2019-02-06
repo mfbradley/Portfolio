@@ -4,12 +4,6 @@
     grid-auto-columns: 1fr;
 }
 
-.navBar {
-    grid-row-start: 0;
-    grid-row-end: 1;
-    
-}
-
 .Content {
     grid-row-start: 1;
     grid-row-end: 2;

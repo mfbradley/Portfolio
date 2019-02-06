@@ -1,3 +1,7 @@
+.Portfolio {
+    background: linear-gradient(purple, teal)
+}
+
 .container {
     display: grid;
     grid-auto-rows: minmax(100px, auto);

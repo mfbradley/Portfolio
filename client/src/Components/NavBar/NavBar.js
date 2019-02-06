@@ -1,15 +1,47 @@
 import React from 'react';
 import './NavBar.css'
-import {Link} from 'react-router-dom';
-const NavBar = props => (
+import { Link } from 'react-router-dom';
+class NavBar extends React.Component {
+    constructor(props) {
+        super(props);
 
-    <div className="navBar">
-        <p className="navTitle">{ props.text }</p>
-        <nav className="navlinks">
-            <Link to="/about">{ props.nav1 }</Link>
-            <Link to="/portfolio">{ props.nav2 }</Link>
-            <Link to="/contact">{ props.nav3 }</Link>
-        </nav>
-    </div>
-)
+        this.state = {};
+
+        this.handleScroll = this.handleScroll.bind(this);
+    }
+
+    handleScroll() {
+        this.setState({ scroll: window.scrollY });
+        console.log(this.state.scroll);
+    }
+
+    componentDidMount() {
+        const el = document.querySelector('nav');
+        this.setState({ top: el.offsetTop, height: el.offsetHeight });
+        window.addEventListener('scroll', this.handleScroll);
+
+    }
+
+    // componentDidUpdate() {
+    //     this.state.scroll > this.state.top ?
+    //         document.body.style.paddingTop = `${this.state.height}px` :
+    //         document.body.style.paddingTop = 0;
+
+    // }
+
+    render() {
+        return (
+            <nav className={this.state.scroll > this.state.top ? "navBar fixed-nav" : "navBar"}>
+
+                <p className="navTitle">Morgan Palacpac</p>
+                <div>
+                    <Link to="/about">About</Link>
+                    <Link to="/portfolio">Portfolio</Link>
+                    <Link to="/contact">Contact</Link>
+                </div>
+
+            </nav >
+        )
+    }
+}
 export default NavBar;

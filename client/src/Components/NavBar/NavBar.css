@@ -2,21 +2,26 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background: black;
     color: lightgrey;
     padding: 10px;
-    top: 0;
+    position: sticky;
+    bottom: 0;
     left: 0;
     right: 0;
+    height: 10vh;
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
 
 .navTitle {
-    flex-grow: 12;
+    /* flex-grow: 12; */
+    justify-self: flex-start;
 }
 
 .navLinks {
-    font-size: 14px;
+    /* font-size: 14px; */
 }
 
 a:link {
@@ -27,4 +32,11 @@ a:link {
 
 a:hover {
     color: purple;
+}
+
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
 }

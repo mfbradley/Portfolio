@@ -12,12 +12,6 @@ class About extends React.Component {
     render() {
         return (
             <div className="About">
-                <NavBar
-                    text="Morgan Palacpac"
-                    nav1="About"
-                    nav2="Portfolio"
-                    nav3="Contact"
-                />
                 <Content
                     contentTitle="About"
                     paragraph="Web Developer with a background in apparel design and e-commerce styling"

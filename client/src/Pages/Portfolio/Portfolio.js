@@ -13,13 +13,6 @@ class Portfolio extends React.Component {
     render() {
         return (
             <div className="Portfolio">
-
-                <NavBar
-                    text="Morgan Palacpac"
-                    nav1="About"
-                    nav2="Portfolio"
-                    nav3="Contact"
-                />
                 <div className="container">
                     <h1 className="title">Portfolio</h1>
                     <div className="port-images">
