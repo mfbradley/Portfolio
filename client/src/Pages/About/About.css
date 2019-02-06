@@ -2,6 +2,7 @@
     display: grid;
     grid-template-rows: 1fr;
     grid-auto-columns: 1fr;
+    background: linear-gradient(purple, teal);
 }
 
 .Content {

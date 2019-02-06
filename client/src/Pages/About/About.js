@@ -1,7 +1,6 @@
 import React from "react";
 import "./About.css";
 // import { CSSTransitionGroup } from 'react-transition-group';
-import NavBar from '../../Components/NavBar';
 import Content from '../../Components/Content';
 
 class About extends React.Component {

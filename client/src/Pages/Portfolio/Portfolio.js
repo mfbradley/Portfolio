@@ -1,8 +1,7 @@
 import React from 'react';
 // import { CSSTransitionGroup } from 'react-transition-group';
 import './Portfolio.css';
-import NavBar from '../../Components/NavBar';
-import Content from '../../Components/Content';
+
 import Image from '../../Components/Image';
 
 class Portfolio extends React.Component {
