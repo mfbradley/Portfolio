@@ -16,8 +16,8 @@ class Portfolio extends React.Component {
                     <h1 className="title">Portfolio</h1>
                     <div className="port-images">
                         <Image src="/images/psychic.PNG" alt="Psychic Game" />
-                        <Image src="/images/psychic.PNG" alt="Psychic Game" />
-                        <Image src="/images/psychic.PNG" alt="Psychic Game" />
+                        <Image src="/images/trivia.PNG" alt="Trivia Game" />
+                        <Image src="/images/train.PNG" alt="Psychic Game" />
                     </div>
                     <div className="port-images2">
                         <Image src="/images/psychic.PNG" alt="Psychic Game" />

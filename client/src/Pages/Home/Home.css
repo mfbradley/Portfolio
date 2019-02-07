@@ -5,9 +5,25 @@
     color: white;
     text-align: center;
     align-items: center;
-    height: 100vh;
-    background: linear-gradient(black, purple)
-    
+    width: 100vw;
+    height: 90vh;
+    /* background: linear-gradient(-45deg, teal, purple, blue, teal); */
+    background: linear-gradient(-45deg, #4fb576, #44c489, #28a9ae, #28a2b7, #4c7788, #6c4f63, #432c39);
+    background-image: linear-gradient(to top,  0%,  30%,  46%,  59%,  71%,  86%,  100%);
+    background-size: 400% 400%;
+    animation: Gradient 15s ease infinite;
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
 }
 
 .Content {
