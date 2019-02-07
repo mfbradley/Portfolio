@@ -1,6 +1,7 @@
 import React from 'react';
 import './NavBar.css'
 import { Link } from 'react-router-dom';
+
 class NavBar extends React.Component {
     constructor(props) {
         super(props);
@@ -26,7 +27,7 @@ class NavBar extends React.Component {
         return (
             <nav className={this.state.scroll > this.state.top ? "navBar fixed-nav" : "navBar"}>
 
-                <p className="navTitle">Morgan Palacpac</p>
+                <p className={this.state.scroll > this.state.top ? "navTitle" : "hidden"}>Morgan Palacpac</p>
                 <div>
                     <Link to="/about">About</Link>
                     <Link to="/portfolio">Portfolio</Link>

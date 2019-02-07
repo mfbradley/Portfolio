@@ -3,9 +3,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background: black;
-    color: lightgrey;
-    padding: 10px;
+    background: white;
+    color: darkgrey;
     position: sticky;
     bottom: 0;
     left: 0;
@@ -23,15 +22,17 @@
 .navLinks {
     /* font-size: 14px; */
 }
-
+a {
+    color: darkgrey;
+}
 a:link {
     text-decoration: none;
-    color: white;
+    color: darkgrey;
     padding: 5px;
 }
 
 a:hover {
-    color: purple;
+    color: #28a9ae;
 }
 
 .fixed-nav {
@@ -39,4 +40,8 @@ a:hover {
     top: 0;
     right: 0;
     bottom: 0;
+}
+
+.hidden {
+    color: white;
 }
