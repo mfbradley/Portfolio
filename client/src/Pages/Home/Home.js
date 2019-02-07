@@ -6,6 +6,7 @@ import NavBar from '../../Components/NavBar';
 import About from '../About';
 import Portfolio from '../Portfolio';
 import Contact from '../Contact';
+import Typewriter from '../../Components/Typewriter'
 
 class Home extends React.Component {
     constructor(props) {
@@ -25,20 +26,24 @@ class Home extends React.Component {
     //     }));
 
     // }
-   
+
 
     render() {
-        
+
         return (
             <div>
                 <div className="Home">
-                    <Content contentTitle="Morgan Palacpac" paragraph="Web Developer" />
+                    <div className="header">
+                        <Content contentTitle="Morgan Palacpac" />
+                        <Typewriter />
+                    </div>
                     <NavBar
                         text="Morgan Palacpac"
                         nav1="About"
                         nav2="Portfolio"
                         nav3="Contact"
                     />
+
                 </div>
                 <div className="About">
                     <About />
