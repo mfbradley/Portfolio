@@ -1,10 +1,24 @@
-.About {
+.about-page {
     display: grid;
     grid-template-rows: 1fr;
     grid-auto-columns: 1fr;
+    color: rgb(78, 78, 78);
+    height: 80vh;
+    
 }
 
-.Content {
+.about-section {
     grid-row-start: 1;
     grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding: 20px;
+}
+
+.buttons-div {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    align-self: center;
 }

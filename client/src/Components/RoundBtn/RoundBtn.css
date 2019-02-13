@@ -1,0 +1,15 @@
+.round-button {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    background: radial-gradient(#28b7b0, #16acb1);
+    border-width: 0px;
+    box-shadow: 1px 2px 10px 1px darkgrey;
+    color: white;
+}
+
+.round-button:hover {
+    box-shadow: 1px 2px 10px 1px black;
+    
+}

@@ -10,9 +10,9 @@ class Content extends React.Component {
 
     render() {
         return(
-            <div className="Content">
-                <h1>{this.props.contentTitle}</h1>
-                <p>{this.props.paragraph}</p>
+            <div className={this.props.className}>
+                <h1 className={this.props.h1}>{this.props.contentTitle}</h1>
+                <p className={this.props.p}>{this.props.paragraph}</p>
             </div>
         )
     }
