@@ -3,6 +3,7 @@ import "./About.css";
 // import { CSSTransitionGroup } from 'react-transition-group';
 import Content from '../../Components/Content';
 import RoundBtn from "../../Components/RoundBtn";
+// icons from - http://konpa.github.io/devicon/
 
 class About extends React.Component {
     constructor(props) {

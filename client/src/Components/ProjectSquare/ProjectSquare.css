@@ -1,17 +1,31 @@
 .project-square {
-    background: purple;
+    background: linear-gradient(#28b7b0, #28a9ae);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10%;
     width: 100px;
     height: 250px;
     flex-basis: 200px;
     max-height: 300px;
-    border: solid;
-    border-color: black;
     margin: 10px;
     flex-shrink: 0;
     box-shadow: 1px 2px 10px 1px darkgrey;
+   
 }
 
 .project-square:hover {
     box-shadow: 1px 2px 10px 1px black;
 
+}
+
+.project-name {
+    font-size: 20px;
+}
+
+.project-languages {
+    height: 5em;
+}
+i {
+    color: white;
 }
