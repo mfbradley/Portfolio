@@ -19,15 +19,17 @@ class About extends React.Component {
 
                 <div className="buttons-div">
                     <h1>Skills</h1>
-                    <RoundBtn text="HTML" />
-                    <RoundBtn text="CSS" />
-                    <RoundBtn text="JS" />
-                    <RoundBtn text="jQuery" />
-                    <RoundBtn text="API" />
-                    <RoundBtn text="Node" />
-                    <RoundBtn text="MySQL" />
-                    <RoundBtn text="React" />
-
+                    <RoundBtn icon="html5-plain-wordmark" />
+                    <RoundBtn icon="css3-plain-wordmark" />
+                    <RoundBtn icon="javascript-plain" />
+                    <RoundBtn icon="jquery-plain-wordmark" />
+                    <RoundBtn icon="bootstrap-plain-wordmark" />
+                    <RoundBtn icon="nodejs-plain-wordmark" />
+                    <RoundBtn icon="mysql-plain-wordmark" />
+                    <RoundBtn icon="react-original-wordmark" />
+                    <RoundBtn icon="mongodb-plain-wordmark" />
+                    <RoundBtn icon="sequelize-plain-wordmark" />
+                    
                 </div>
             </div>
         )
