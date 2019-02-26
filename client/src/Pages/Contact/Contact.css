@@ -3,6 +3,8 @@
 } */
 
 .Contact {
-    background: linear-gradient(darkblue, black)
-
+    background: linear-gradient(-45deg, #28b7b0, #28a9ae); 
+    color: white;   
+    padding: 20px;
+    margin-top: 20px;
 }

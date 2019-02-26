@@ -8,10 +8,13 @@ class ContactForm extends React.Component {
 
     render() {
         return (
-            <form action="https://formspree.io/your@email.com" method="POST">
-                <input type="text" name="name" />
-                <input type="email" name="_replyto" />
-                <input type="submit" value="Send" />
+            <form id="contact-form" action="https://formspree.io/mbradleystylist@gmail.com" method="POST">
+               
+                <input placeholder="Name" type="text" name="name" />
+                <input placeholder="Email" type="email" name="_replyto" />
+                <textarea form="contact-form" rows="5" columns="100" name="message" placeholder="Message"></textarea>
+
+                <input id="submit" type="submit" value="Send" />
             </form>
         )
     }

@@ -8,9 +8,9 @@ class Contact extends React.Component {
     render() {
         return (
             <div className="Contact">
-                <Content
+                <Content className="contact-content"
                     contentTitle="Contact"
-                    paragraph="Fill out this form to get in touch"
+                    paragraph="Please fill out this form to get in touch"
                 />
                 <ContactForm />
             </div>

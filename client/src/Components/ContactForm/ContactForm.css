@@ -1,0 +1,33 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+    
+}
+
+input {
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+textarea {
+    width: 80%;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+label {
+    align-self: flex-start
+}
+
+#submit {
+    width: 10em;
+    margin-top: 20px;
+}
+
+.contact-content {
+    text-align: center;
+}
