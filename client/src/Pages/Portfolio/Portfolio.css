@@ -10,7 +10,7 @@
 
 .title {
     grid: 1/1/4/2;
-    color: black;
+    color: rgb(78, 78, 78);
     padding: 20px;
 }
 .port-images {
