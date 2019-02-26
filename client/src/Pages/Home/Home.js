@@ -6,7 +6,8 @@ import NavBar from '../../Components/NavBar';
 import About from '../About';
 import Portfolio from '../Portfolio';
 import Contact from '../Contact';
-import Typewriter from '../../Components/Typewriter'
+import Typewriter from '../../Components/Typewriter';
+import Footer from "../../Components/Footer";
 
 class Home extends React.Component {
     constructor(props) {
@@ -54,6 +55,7 @@ class Home extends React.Component {
                 <div className="Contact">
                     <Contact />
                 </div>
+                <Footer github={"https://github.com/mfbradley"} site={"www.google.com"}/>
 
             </div>
         )
