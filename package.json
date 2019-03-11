@@ -2,7 +2,11 @@
   "dependencies": {
     "create-react-app": "^2.1.2",
     "react": "^16.8.4",
-    "react-scripts": "^2.1.8"
+    "react-dom": "^16.8.4",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.8",
+    "react-scroll-to-component": "^1.0.2",
+    "react-transition-group": "^2.6.0"
   },
   "scripts": {
     "start": "cd client && yarn start"
