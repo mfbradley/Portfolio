@@ -1,8 +1,8 @@
 {
   "dependencies": {
     "create-react-app": "^2.1.2",
-    "react-scripts": "2.1.2"
-  }, 
+    "react-scripts": "^2.1.8"
+  },
   "scripts": {
     "start": "cd client && yarn start"
   }
