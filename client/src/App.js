@@ -19,31 +19,33 @@ class App extends Component {
 
     return (
 
-      <Router>
-        <div className="App">
+      // <Router>
+      //   <div className="App">
 
-          <Route render={({ location }) => (
+      //     <Route render={({ location }) => (
 
-            < CSSTransitionGroup
-              transitionName="fade"
-              transitionEnterTimeout={2000}
-              transitionLeave={false}
-              transitionLeaveTimeout={2000}
-            >
+      //       < CSSTransitionGroup
+      //         transitionName="fade"
+      //         transitionEnterTimeout={2000}
+      //         transitionLeave={false}
+      //         transitionLeaveTimeout={2000}
+      //       >
 
-              <Switch key={location.key} location={location}>
-                <Route exact path="/" component={Home} />
-                <Route exact path="/about" component={About} />
-                <Route exact path="/portfolio" component={Portfolio} />
-                <Route exact path="/contact" component={Contact} />
-                {/* <Route component={NoMatch} /> */}
-              </Switch>
-            </CSSTransitionGroup>
-          )}
+      //         <Switch key={location.key} location={location}>
+      //           <Route exact path="/" component={Home} />
+      //           <Route exact path="/about" component={About} />
+      //           <Route exact path="/portfolio" component={Portfolio} />
+      //           <Route exact path="/contact" component={Contact} />
+      //           {/* <Route component={NoMatch} /> */}
+      //         </Switch>
+      //       </CSSTransitionGroup>
+      //     )}
 
-          />
-        </div>
-      </Router>
+      //     />
+      //   </div>
+      // </Router>
+
+      <Home />
 
     );
   }
