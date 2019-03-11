@@ -10,7 +10,7 @@ class RoundBtn extends React.Component {
         return (
 
             <button className="round-button">
-                <i class={`devicon-${this.props.icon}`}></i>
+                <i className={`devicon-${this.props.icon}`}></i>
             </button>
             
 

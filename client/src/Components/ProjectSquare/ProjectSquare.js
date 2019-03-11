@@ -14,8 +14,8 @@ class ProjectSquare extends React.Component {
                 <p className="project-languages">{this.props.languages}</p>
                 <hr></hr>
                 <div className="project-links">
-                    <a href={this.props.github} target="_blank"><i class="devicon-github-plain-wordmark"></i></a>
-                    <a href={this.props.site} target="_blank"><i class="devicon-chrome-plain"></i></a>
+                    <a href={this.props.github} target="_blank"><i className="devicon-github-plain-wordmark"></i></a>
+                    <a href={this.props.site} target="_blank"><i className="devicon-chrome-plain"></i></a>
                 </div>
             </div>
         )

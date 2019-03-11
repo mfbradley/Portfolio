@@ -17,16 +17,17 @@ class Portfolio extends React.Component {
                     <h1 className="title">Portfolio</h1>
                     <div className="port-images">
                         <ProjectSquare
+                            projectText={"Psychic Game"}
+                            languages={"HTML, CSS, Bootstrap, JS, jQuery"}
+                            github={"https://github.com/mfbradley/Psychic-Game"}
+                            site={"https://mfbradley.github.io/Psychic-Game/"}
+                        />
+                        <ProjectSquare
                             projectText={"Train Scheduler"}
                             languages={"HTML, CSS, Js, jQuery, Firebase, Moment.js"}
                             github={"https://github.com/mfbradley/Train-Scheduler"}
                             site={"https://mfbradley.github.io/Train-Scheduler/"} />
-                        <ProjectSquare
-                            projectText={"Psychic Game"}
-                            languages={"HTML, CSS, Bootstrap, JS"}
-                            github={"https://github.com/mfbradley/Psychic-Game"}
-                            site={"https://mfbradley.github.io/Psychic-Game/"}
-                        />
+
                         <ProjectSquare
                             projectText={"Mongo News Scraper"}
                             languages={"HTML, CSS, Bootstrap, JS, jQuery, Node.js, Express, MongoDB, Mongoose, Cheerio, Request, Heroku"}
@@ -61,13 +62,13 @@ class Portfolio extends React.Component {
                             github={"https://github.com/mfbradley/burger"}
                             site={"https://floating-brushlands-15137.herokuapp.com/"}
                         />
-                        <ProjectSquare 
+                        <ProjectSquare
                             projectText={"Polimotions"}
                             languages={"HTML, CSS, Bootstrap, JS, jQuery, Face Plus Plus, Firebase"}
                             github={"https://github.com/mfbradley/Polimotions"}
                             site={"https://mfbradley.github.io/Polimotions/"}
                         />
-                        <ProjectSquare 
+                        <ProjectSquare
                             projectText={"Convoy Group Travel"}
                             languages={"Materialize, Node.js, Express, SendGrid, Yarn, Firebase, Google Maps, React"}
                             github={"https://github.com/mfbradley/convoy"}

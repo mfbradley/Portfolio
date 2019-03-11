@@ -1,6 +1,7 @@
 import React from 'react';
 import './NavBar.css'
 import { Link } from 'react-router-dom';
+import scrollToComponent from "react-scroll-to-component";
 
 class NavBar extends React.Component {
     constructor(props) {
@@ -29,9 +30,9 @@ class NavBar extends React.Component {
 
                 <p className={this.state.scroll > this.state.top ? "navTitle" : "hidden"}>Morgan Palacpac</p>
                 <div>
-                    <Link to="/about">About</Link>
-                    <Link to="/portfolio">Portfolio</Link>
-                    <Link to="/contact">Contact</Link>
+                    <a onClick={this.props.onclick} >About</a>
+                    <a onClick={() => scrollToComponent(this.refs.about)} >Portfolio</a>
+                    <a  onClick={() => scrollToComponent(this.refs.about)} >Contact</a>
                 </div>
 
             </nav >
