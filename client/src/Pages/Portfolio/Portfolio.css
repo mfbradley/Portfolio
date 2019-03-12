@@ -6,6 +6,7 @@
 .container {
     display: grid;
     grid-auto-rows: minmax(100px, auto);
+    grid-auto-columns: repeat(4, 1fr);
     grid-row-gap: 20px;
 }
 
@@ -15,6 +16,7 @@
     padding: 20px; 
     justify-content: space-around;
 }
+
 .port-images {
     display: flex;
     align-items: center;

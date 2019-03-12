@@ -16,37 +16,36 @@ class Portfolio extends React.Component {
                 <div className="container">
                     <h1 className="title">Portfolio</h1>
                     <div className="port-images">
-                        <ProjectSquare
+                        <ProjectSquare className="one"
                             projectText={"Psychic Game"}
                             languages={"HTML, CSS, Bootstrap, JS, jQuery"}
                             github={"https://github.com/mfbradley/Psychic-Game"}
                             site={"https://mfbradley.github.io/Psychic-Game/"}
                         />
-                        <ProjectSquare
+                        <ProjectSquare className="two"
                             projectText={"Train Scheduler"}
                             languages={"HTML, CSS, Js, jQuery, Firebase, Moment.js"}
                             github={"https://github.com/mfbradley/Train-Scheduler"}
                             site={"https://mfbradley.github.io/Train-Scheduler/"} />
 
-                        <ProjectSquare
-                            projectText={"Mongo News Scraper"}
-                            languages={"HTML, CSS, Bootstrap, JS, jQuery, Node.js, Express, MongoDB, Mongoose, Cheerio, Request, Heroku"}
+                        <ProjectSquare className="three"
+                            projectText={"News Scraper"}
+                            languages={"Node.js, Express, Handlebars, MongoDB, Mongoose, Cheerio, Request, Heroku"}
                             github={"https://github.com/mfbradley/mongo_scraper"}
                             site={"https://secret-depths-22228.herokuapp.com/index.html#"}
                         />
-                        <ProjectSquare
-                            projectText={"React Memory Game"}
+                        <ProjectSquare className="four"
+                            projectText={"Memory Game"}
                             languages={"React, create-react-app, CSS, JSX"}
                             github={"https://github.com/mfbradley/clicky_react_app"}
                             site={"https://mfbradley.github.io/clicky_react_app"}
                         />
-                        <ProjectSquare
+                        <ProjectSquare className="five"
                             projectText={"Gif App"}
                             languages={"HTML, CSS, JS, jQuery, Giphy API, Ajax"}
                             github={"https://github.com/mfbradley/GifTastic"}
                             site={"https://mfbradley.github.io/GifTastic/"}
                         />
-
 
                     </div>
                     <div className="port-images2">
@@ -69,16 +68,16 @@ class Portfolio extends React.Component {
                             site={"https://mfbradley.github.io/Polimotions/"}
                         />
                         <ProjectSquare
-                            projectText={"Convoy Group Travel"}
+                            projectText={"Convoy"}
                             languages={"Materialize, Node.js, Express, SendGrid, Yarn, Firebase, Google Maps, React"}
                             github={"https://github.com/mfbradley/convoy"}
                             site={"https://warm-woodland-20139.herokuapp.com/"}
                         />
                         <ProjectSquare
-                            projectText={"Harry Potter RPG"}
-                            languages={"HTML, CSS, JS, jQuery, Bootstrap"}
-                            github={"https://github.com/mfbradley/week-4-game"}
-                            site={"https://mfbradley.github.io/week-4-game/"}
+                            projectText={"Flash Cards"}
+                            languages={"React, JSX, Materialize, CSS"}
+                            github={"https://github.com/amesmr/js-flashcards"}
+                            site={"https://flashcards-and-quizzes.herokuapp.com/"}
                         />
                     </div>
                 </div>
