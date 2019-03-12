@@ -31,7 +31,7 @@ class Portfolio extends React.Component {
                             projectText={"News Scraper"}
                             languages={"Node.js, Express, Handlebars, MongoDB, Mongoose, Cheerio, Request, Heroku"}
                             github={"https://github.com/mfbradley/mongo_scraper"}
-                            site={"https://secret-depths-22228.herokuapp.com/index.html#"}
+                            site={"https://secret-depths-22228.herokuapp.com/"}
                         />
                         <ProjectSquare className="four"
                             projectText={"Memory Game"}
