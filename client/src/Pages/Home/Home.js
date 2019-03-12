@@ -44,11 +44,11 @@ class Home extends React.Component {
             <div>
                 <div className="Home">
                     <div className="header">
-                        <Content contentTitle="Morgan Palacpac" />
+                        <h1 className="name">Morgan Palacpac</h1>
                         <div><span className="type"><Typewriter /></span></div>
-                        
+
                     </div>
-                    
+
                     <nav className={this.state.scroll > this.state.top ? "navBar fixed-nav" : "navBar"}>
 
                         <p className={this.state.scroll > this.state.top ? "navTitle" : "hidden"}>Morgan Palacpac</p>
@@ -59,7 +59,7 @@ class Home extends React.Component {
                         </div>
 
                     </nav >
-                    
+
                 </div>
                 <div className="About" ref="about">
                     <About />

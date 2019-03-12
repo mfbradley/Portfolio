@@ -42,8 +42,8 @@
     grid-column-end: 4;
     height: 20px;
 }
-.homeName {
-    font-size: 30px;
+.name {
+    font-size: 50px;
 }
 
 .homeDesc {
@@ -159,4 +159,5 @@ a:hover {
 
 .type {
     height: 100px;
+    font-size: 20px;
 }

@@ -2,7 +2,6 @@ import React from 'react';
 // import { CSSTransitionGroup } from 'react-transition-group';
 import './Portfolio.css';
 import ProjectSquare from "../../Components/ProjectSquare";
-
 import Image from '../../Components/Image';
 
 class Portfolio extends React.Component {
