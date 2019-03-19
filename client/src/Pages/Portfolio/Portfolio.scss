@@ -1,3 +1,5 @@
+@import "../../variables.scss";
+
 .Portfolio {
     background: white;
     
@@ -7,13 +9,13 @@
     display: grid;
     grid-auto-rows: minmax(100px, auto);
     grid-auto-columns: repeat(4, 1fr);
-    grid-row-gap: 20px;
+    grid-row-gap: $space;
 }
 
 .title {
     grid: 1/1/4/2;
-    color: rgb(78, 78, 78);
-    padding: 20px; 
+    color: $grey-icon;
+    padding: $space; 
     justify-content: space-around;
 }
 

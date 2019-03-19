@@ -1,5 +1,5 @@
 import React from 'react';
-import './Home.css';
+import './Home.scss';
 import { CSSTransitionGroup } from 'react-transition-group';
 import Content from "../../Components/Content"
 import NavBar from '../../Components/NavBar';

@@ -1,6 +1,6 @@
 import React from 'react';
 // import { CSSTransitionGroup } from 'react-transition-group';
-import './Portfolio.css';
+import './Portfolio.scss';
 import ProjectSquare from "../../Components/ProjectSquare";
 import Image from '../../Components/Image';
 

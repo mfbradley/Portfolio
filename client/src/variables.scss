@@ -1,7 +1,21 @@
+// font
 $font-rob: 'Roboto', sans-serif;
+
+// solid colors
 $grey-icon: rgb(78, 78, 78);
+
+// spacing
 $space: 20px;
+
+// gradients
 $teal-gradient: linear-gradient(#28b7b0, #28a9ae);
+$contact-gradient: linear-gradient(-45deg, #28b7b0, #28a9ae);
+$home-gradient: linear-gradient(-45deg, #4fb576, #44c489, #28a9ae, #28a2b7, #4c7788, #6c4f63, #432c39);
+$bkg-anim-gradient: linear-gradient(to top,  0%,  30%,  46%,  59%,  71%,  86%,  100%);
+
+// shadows
 $inactive-shadow: 1px 2px 10px 1px darkgrey;
 $hover-shadow: 1px 2px 10px 1px black;
-$contact-gradient: linear-gradient(-45deg, #28b7b0, #28a9ae)
+
+// animations
+$bkg-animation: Gradient 15s ease infinite;
