@@ -1,0 +1,12 @@
+@import "../../variables.scss";
+
+/* .Content {
+    height: 100vh;
+} */
+
+.Contact {
+    background: $contact-gradient; 
+    color: white;   
+    padding: $space;
+    margin-top: $space;
+}

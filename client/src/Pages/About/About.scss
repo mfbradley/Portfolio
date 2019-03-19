@@ -1,8 +1,10 @@
+@import "../../variables.scss";
+
 .about-page {
     display: grid;
     grid-template-rows: 1fr;
     grid-auto-columns: 1fr;
-    color: rgb(78, 78, 78);
+    color: $grey-icon;
     height: auto;
     margin: 40px;
     background-color: #f7f5f6
@@ -15,7 +17,7 @@
     grid-column-start: 1;
     grid-column-end: 3;
     
-    padding: 20px;
+    padding: $space;
     
     
 }
@@ -26,6 +28,6 @@
     grid-column-start: 3;
     grid-column-end: 5;
     align-self: center;
-    padding: 20px;
+    padding: $space;
     padding-bottom: 50px;
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import './RoundBtn.css';
+import './RoundBtn.scss';
 
 class RoundBtn extends React.Component {
     constructor(props) {

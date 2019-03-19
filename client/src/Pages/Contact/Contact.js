@@ -1,7 +1,7 @@
 import React from 'react';
 import Content from '../../Components/Content';
 import ContactForm from "../../Components/ContactForm";
-import './Contact.css'
+import './Contact.scss'
 
 class Contact extends React.Component {
 

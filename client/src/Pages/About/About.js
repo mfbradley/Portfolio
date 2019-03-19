@@ -1,5 +1,5 @@
 import React from "react";
-import "./About.css";
+import "./About.scss";
 // import { CSSTransitionGroup } from 'react-transition-group';
 import Content from '../../Components/Content';
 import RoundBtn from "../../Components/RoundBtn";
