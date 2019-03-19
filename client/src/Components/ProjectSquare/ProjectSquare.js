@@ -1,5 +1,5 @@
 import React from "react";
-import "./ProjectSquare.css";
+import "./ProjectSquare.scss";
 
 class ProjectSquare extends React.Component {
     constructor(props) {

@@ -1,8 +1,10 @@
+@import "../../variables.scss";
+
 .project-square {
-    background: linear-gradient(#28b7b0, #28a9ae);
+    background: $teal-gradient;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: $space;
     border-radius: 10%;
     width: 100px;
     min-width: 100px;
@@ -10,17 +12,18 @@
     flex-basis: 200px;
     max-height: 300px;
     margin: 10px;
-    box-shadow: 1px 2px 10px 1px darkgrey;
+    box-shadow: $inactive-shadow;
+    flex-grow: 1;
    
 }
 
 .project-square:hover {
-    box-shadow: 1px 2px 10px 1px black;
+    box-shadow: $hover-shadow;
 
 }
 
 .project-name {
-    font-size: 20px;
+    font-size: $space;
 }
 
 .project-languages {
