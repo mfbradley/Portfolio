@@ -17,9 +17,10 @@
     // grid-column-start: 1;
     // grid-column-end: 5;
     padding: $space;
-    max-width: 500px;
+   
     display: flex;
     flex-wrap: wrap;
+    max-width: 30rem;
 }
 
 .buttons-div {
@@ -30,12 +31,14 @@
     align-self: center;
     padding: $space;
     padding-bottom: 50px;
+    max-width: 30rem;
+    min-width: 10rem;
     
 }
 
 .about-info {
     display: flex;
     flex-wrap: wrap;
-
+    justify-content: space-around;
 }
 
