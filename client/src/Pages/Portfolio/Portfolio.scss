@@ -30,6 +30,7 @@
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 2;
+    justify-content: space-around;
     
 }
 .port-images2 {
@@ -41,7 +42,7 @@
     grid-row-end: 4;
     grid-column-start: 1;
     grid-column-end: 2;
-    height: 300px;
+    justify-content: center;
 }
 /* .Image {
     width: 80%;

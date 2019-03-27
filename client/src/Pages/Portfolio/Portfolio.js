@@ -46,8 +46,7 @@ class Portfolio extends React.Component {
                             site={"https://mfbradley.github.io/GifTastic/"}
                         />
 
-                    </div>
-                    <div className="port-images2">
+                    
                         <ProjectSquare
                             projectText={"Trivia"}
                             languages={"HTML, CSS, JS, jQuery"}

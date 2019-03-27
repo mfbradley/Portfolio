@@ -12,22 +12,30 @@
 }
 
 .about-section {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 5;
-    
+    // grid-row-start: 1;
+    // grid-row-end: 2;
+    // grid-column-start: 1;
+    // grid-column-end: 5;
     padding: $space;
-    
-    
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .buttons-div {
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 1;
-    grid-column-end: 5;
+    // grid-row-start: 2;
+    // grid-row-end: 3;
+    // grid-column-start: 1;
+    // grid-column-end: 5;
     align-self: center;
     padding: $space;
     padding-bottom: 50px;
+    
 }
+
+.about-info {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
