@@ -20,6 +20,7 @@
     color: $grey-icon;
     padding: $space; 
     justify-content: space-around;
+    text-align: center;
 }
 
 .port-images {
@@ -31,6 +32,7 @@
     grid-column-start: 1;
     grid-column-end: 2;
     justify-content: space-around;
+    margin-bottom: $space;
     
 }
 .port-images2 {
