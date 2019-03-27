@@ -1,6 +1,8 @@
+@import "../../variables.scss";
+
 .Home {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-columns: 1fr; 
     grid-template-rows: minmax(300px, auto);
     color: white;
     text-align: center;
@@ -149,7 +151,7 @@ a:hover {
     bottom: 0;
     /* border-bottom: solid;
     border-bottom-color: rgb(78, 78, 78); */
-    box-shadow: $inactive-gradient;
+    box-shadow: $inactive-shadow;
 
 }
 
