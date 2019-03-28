@@ -17,6 +17,13 @@
    
 }
 
+.project-square-link {
+    color: white;
+}
+
+a:link {
+    padding: 0px;
+}
 .project-square:hover {
     box-shadow: $hover-shadow;
 

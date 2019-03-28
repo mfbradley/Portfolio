@@ -131,17 +131,17 @@
     /* font-size: 14px; */
     padding-right: 10px;
 }
-a {
+.nav-link {
     color: $grey-icon;
     padding-right: 10px;
 }
-a:link {
+.nav-link:link {
     text-decoration: none;
     color: $grey-icon;
     padding: 5px;
 }
 
-a:hover {
+.nav-link:hover {
     color: #28a9ae;
 }
 

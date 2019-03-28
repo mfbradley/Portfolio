@@ -45,7 +45,7 @@ class Home extends React.Component {
                 <div className="Home">
                     <div className="header">
                         <h1 className="name">Morgan Palacpac</h1>
-                        <div><span className="type"><Typewriter /></span></div>
+                        <div className="type"><Typewriter /></div>
 
                     </div>
 
@@ -53,9 +53,9 @@ class Home extends React.Component {
 
                         <p className={this.state.scroll > this.state.top ? "navTitle" : "hidden"}>Morgan Palacpac</p>
                         <div className="nav-links">
-                            <a onClick={() => scrollToComponent(this.refs.about, { offset: -50, align: 'top', duration: 1500 })}>About</a>
-                            <a onClick={() => scrollToComponent(this.refs.port, { offset: -50, align: 'top', duration: 1500 })}>Portfolio</a>
-                            <a onClick={() => scrollToComponent(this.refs.contact, { offset: -75, align: 'top', duration: 1500 })}>Contact</a>
+                            <a className="nav-link" onClick={() => scrollToComponent(this.refs.about, { offset: -50, align: 'top', duration: 1500 })}>About</a>
+                            <a className="nav-link" onClick={() => scrollToComponent(this.refs.port, { offset: -50, align: 'top', duration: 1500 })}>Portfolio</a>
+                            <a className="nav-link" onClick={() => scrollToComponent(this.refs.contact, { offset: -75, align: 'top', duration: 1500 })}>Contact</a>
                         </div>
 
                     </nav >
